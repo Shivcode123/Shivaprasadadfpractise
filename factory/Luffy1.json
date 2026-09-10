@@ -1,0 +1,15 @@
+{
+	"name": "Luffy1",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3620c749-a20d-4e3f-beac-70f02691a96e",
+		"tenantId": "b739d7ca-d78f-49bb-b27c-4094846e24da"
+	}
+}
