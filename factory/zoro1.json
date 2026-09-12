@@ -1,0 +1,15 @@
+{
+	"name": "zoro1",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4800255a-69cb-4394-a4c3-fbe4b3cb731e",
+		"tenantId": "b739d7ca-d78f-49bb-b27c-4094846e24da"
+	}
+}
