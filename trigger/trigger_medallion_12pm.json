@@ -1,0 +1,24 @@
+{
+	"name": "trigger_medallion_12pm",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_medallion_architecture",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 18,
+				"startTime": "2026-10-07T12:00:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
